@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    tools:context="com.example.officeproject1.MainActivity"
+    android:background="@drawable/bg">
+
+
+    <RelativeLayout
+        android:layout_width="340dp"
+        android:layout_height="450dp"
+        android:layout_marginTop="60dp"
+        android:layout_marginLeft="10dp"
+
+         >
+
+        <EditText
+            android:id="@+id/editText1"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:hint=" Phone Number"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="47dp"
+            android:ems="10"
+            android:background="@drawable/roundedit"
+            android:inputType="phone"
+            android:gravity="center"/>
+
+
+
+        <EditText
+            android:id="@+id/editText2"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:layout_alignLeft="@+id/editText1"
+            android:layout_below="@+id/editText1"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/roundedit"
+            android:ems="10"
+            android:gravity="center"
+            android:hint=" Bill No"
+            android:inputType="number" />
+
+
+
+        <EditText
+            android:id="@+id/editText3"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:layout_below="@+id/editText2"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/roundedit"
+            android:ems="10"
+            android:hint=" Bill Amount"
+            android:inputType="number"
+            android:gravity="center">
+
+            <requestFocus />
+        </EditText>
+
+
+
+        <CheckBox
+            android:id="@+id/checkBox1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/editText3"
+            android:layout_below="@+id/editText3"
+            android:layout_marginTop="18dp"
+            android:text="No Points"
+            android:textColor="#000000" />
+
+
+        <Button
+            android:id="@+id/button1"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/checkBox1"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="17dp"
+            android:background="@drawable/rounded_button"
+            android:shadowDy="40"
+            android:text="Submit"
+            android:textColor="#FFFFFF" />
+
+
+        <Button
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:text=""
+            android:id="@+id/button2"
+            android:background="@drawable/image7"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="290dp"
+            />
+
+        <Button
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:text=""
+            android:background="@drawable/image8"
+            android:id="@+id/button3"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="10dp"/>
+
+        <FrameLayout
+            android:id="@+id/your_placeholder"
+            android:layout_width="270dp"
+            android:layout_marginLeft="100dp"
+            android:layout_height="300dp"
+            android:layout_marginTop="30dp"
+            android:layout_centerHorizontal="true">
+        </FrameLayout>
+
+        <Button
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/roundedbuttonpayment"
+            android:text="Make Payment"
+            android:id="@+id/button4"
+            android:layout_below="@+id/button1"
+            android:layout_marginTop="17dp"
+            android:layout_centerHorizontal="true"
+            android:textColor="#FFFFFF"
+            />
+
+
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="340dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="28dp"
+        android:text="Record Transaction"
+        android:textColor="#af0907"
+
+        android:layout_marginLeft="10dp"
+        android:textSize="30dp"
+        android:gravity="center"
+        />
+
+
+
+
+
+</RelativeLayout>
+

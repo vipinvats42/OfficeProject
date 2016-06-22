@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="#9ec4f3">
+
+
+    <TextView
+        android:layout_width="262dp"
+        android:layout_height="40dp"
+
+        android:text="Name:VIPIN"
+        android:gravity="center"
+        android:background="@drawable/roundedit"
+        android:ems="10"
+        android:id="@+id/editText5"
+        android:layout_marginTop="20dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginLeft="3dp"
+        />
+
+    <TextView
+        android:layout_width="262dp"
+        android:layout_height="40dp"
+        android:background="@drawable/roundedit"
+       android:gravity="center"
+        android:ems="10"
+        android:text="DOB: 21-12-92"
+        android:id="@+id/editText7"
+        android:layout_alignParentTop="true"
+        android:layout_alignLeft="@+id/editText5"
+        android:layout_alignStart="@+id/editText5"
+        android:layout_marginTop="91dp" />
+
+    <TextView
+        android:layout_width="262dp"
+        android:layout_height="40dp"
+        android:background="@drawable/roundedit"
+       android:text="Rewards Points: 10"
+        android:gravity="center"
+        android:ems="10"
+        android:id="@+id/editText8"
+        android:layout_alignParentTop="true"
+        android:layout_alignRight="@+id/editText7"
+        android:layout_alignEnd="@+id/editText7"
+        android:layout_marginTop="160dp" />
+
+    <TextView
+        android:layout_width="262dp"
+        android:layout_height="40dp"
+        android:background="@drawable/roundedit"
+        android:text="No of Visit: 20"
+        android:ems="10"
+        android:gravity="center"
+        android:id="@+id/editText9"
+        android:layout_alignParentTop="true"
+        android:layout_alignLeft="@+id/editText8"
+        android:layout_alignStart="@+id/editText8"
+        android:layout_marginTop="230dp" />
+
+</RelativeLayout>
